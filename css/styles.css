@@ -1,0 +1,58 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    background-color: #F5F5F5;
+    margin: 0px auto;
+}
+
+.header{
+    background-color: #fff;
+    padding-left: 215px;
+    padding-right: 215px;
+    height: 80px;
+}
+
+.header-logo{
+    Font-family: Raleway;
+    Font-style: Bold;
+    Font-size: 26px;
+    Line-height: 31px;
+    Line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 3%;
+    text-decoration: none;
+}
+
+.header-logo-text-web{
+    color: #2196F3;
+}
+
+.header-logo-text-studio{
+    color: #000;
+}
+.section-hat{
+    height: 600px;
+    background-color: #2F303A;;
+}
+
+.projects-list{
+    column-count: 3;
+}
+
+.header,
+.navigation-items,
+.Contacts-in-header,
+.features-items,
+.work-items,
+.team-items,
+.filters-buttons{
+    display: flex;
+}
+
+
+
+.footer{
+    background-color: #2F303A;
+}
