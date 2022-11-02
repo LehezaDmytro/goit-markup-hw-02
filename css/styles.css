@@ -1,58 +1,209 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    width: 1600px;
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #212121;
     background-color: #F5F5F5;
-    margin: 0px auto;
 }
 
-.header{
+/* Heder styles */
+.header {
     background-color: #fff;
-    padding-left: 215px;
-    padding-right: 215px;
-    height: 80px;
 }
 
-.header-logo{
+/* Heder-logo styles */
+.header-logo {
     Font-family: Raleway;
-    Font-style: Bold;
+    font-weight: 700;
     Font-size: 26px;
-    Line-height: 31px;
-    Line-height: 100%;
-    Align: Left;
-    Vertical-align: Top;
-    Letter-spacing: 3%;
     text-decoration: none;
 }
 
-.header-logo-text-web{
+.header-logo-text-web {
     color: #2196F3;
 }
 
-.header-logo-text-studio{
+.header-logo-text-studio {
     color: #000;
 }
-.section-hat{
-    height: 600px;
-    background-color: #2F303A;;
+
+/* Navigation menu style */
+.navigation-item {
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    text-decoration: none;
 }
 
-.projects-list{
+.navigation-item:hover,
+.navigation-item:focus {
+    color: #2196F3
+}
+
+/* Contacts in header styles */
+.contact-header {
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.contact-header:hover,
+.contact-header:focus {
+    color: #2196F3;
+}
+
+/* Maine styles */
+
+/* Section het style */
+
+.section-hat {
+    background-color: #2F303A;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+} 
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+/* Section futures styles */
+
+.feature-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.feature-item {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+
+/* Section work styles */
+
+.work-title {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Section team styles */
+
+.team-title {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Cards with photos, names and titles of professions */
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.position {
+    font-size: 16px;
+    text-align: center;
+    color: #757575;
+}
+.projects-list {
     column-count: 3;
 }
 
-.header,
-.navigation-items,
-.Contacts-in-header,
-.features-items,
-.work-items,
-.team-items,
-.filters-buttons{
-    display: flex;
-}
+/* Footer styles */
 
-
-
-.footer{
+.footer {
     background-color: #2F303A;
 }
+
+/* Footer logo */
+
+.footer-logo {
+    text-decoration: none;
+}
+
+.footer-logo-text-web,
+.footer-logo-text-studio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.footer-logo-text-web {
+    color: #2196F3;
+}
+
+.footer-logo-text-studio {
+    color: #fff;
+}
+
+/* Footer adress */
+
+.company-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.company-address:hover,
+.company-address:focus {
+    color: #2196F3;
+}
+
+.contact-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+    color:#2196F3
+}
+
+/* Portfolio page */
+
+/* Mine styles */
+
+/* Section filters */
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    color: #fff;
+    background-color: #2196F3;
+}
+
+/* Section projects */
+
+.project-title {
+    font-size: 18px;
+}
+
+.project-type {
+    font-size: 16px;
+    color: #757575;
+}
+
