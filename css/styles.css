@@ -1,12 +1,25 @@
+:root {
+    --primery-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --main-background-color: #fff;
+    --secondary-background-color: #2F303A;
+}
+
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #212121;
-    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+
+/* Removes periods from list items */
+.list {
+    list-style: none;
 }
 
 /* Heder styles */
 .header {
-    background-color: #fff;
+    background-color: var(--main-background-color);
 }
 
 /* Heder-logo styles */
@@ -14,11 +27,12 @@ body {
     Font-family: Raleway;
     font-weight: 700;
     Font-size: 26px;
+    line-height: 1.19;
     text-decoration: none;
 }
 
 .header-logo-text-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-logo-text-studio {
@@ -26,29 +40,46 @@ body {
 }
 
 /* Navigation menu style */
+
+
 .navigation-item {
     font-weight: 500;
     font-size: 14px;
-    color: #212121;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color);
     text-decoration: none;
 }
 
 .navigation-item:hover,
 .navigation-item:focus {
-    color: #2196F3
+    color: var(--accent-color);
+}
+
+.active-page {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    text-decoration: none;
 }
 
 /* Contacts in header styles */
+
+
 .contact-header {
     font-weight: 500;
     font-size: 14px;
-    color: #757575;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
     text-decoration: none;
 }
 
 .contact-header:hover,
 .contact-header:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Maine styles */
@@ -56,7 +87,7 @@ body {
 /* Section het style */
 
 .section-hat {
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
 }
 
 .title {
@@ -76,7 +107,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     cursor: pointer;
 }
 
@@ -84,50 +115,59 @@ body {
 
 .feature-title {
     font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
+
 
 .feature-item {
     font-size: 14px;
     line-height: 1.71;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
 /* Section work styles */
 
 .work-title {
     font-size: 36px;
+    line-height: 1.16;
     text-align: center;
 }
+
 
 /* Section team styles */
 
+.team-item {
+    background-color: var(--main-background-color);
+}
 .team-title {
     font-size: 36px;
+    line-height: 1.16;
     text-align: center;
 }
+
 
 /* Cards with photos, names and titles of professions */
 
 .name {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.19;
     text-align: center;
 }
 
 .position {
     font-size: 16px;
+    line-height: 1.19;
     text-align: center;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
-.projects-list {
-    column-count: 3;
-}
+
 
 /* Footer styles */
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
 }
 
 /* Footer logo */
@@ -141,10 +181,11 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.19;
 }
 
 .footer-logo-text-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .footer-logo-text-studio {
@@ -157,53 +198,70 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.17;
     color: #FFFFFF;
     text-decoration: none;
 }
 
 .company-address:hover,
 .company-address:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .contact-footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.17;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
 .contact-footer:hover,
 .contact-footer:focus {
-    color:#2196F3
+    color:var(--accent-color);
 }
 
 /* Portfolio page */
 
 /* Mine styles */
 
-/* Section filters */
+/* Filters */
+
 .filter-button {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.16;
     text-align: center;
     cursor: pointer;
+    background-color: #F5F4FA;
 }
 
 .filter-button:hover {
     color: #fff;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
-/* Section projects */
+/* Projects */
+
+.project {
+    background-color:var(--main-background-color);
+}
+
+.project-link {
+    text-decoration: none;
+}
 
 .project-title {
     font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color);
 }
 
 .project-type {
     font-size: 16px;
-    color: #757575;
+    line-height: 1.88;
+    color: var(--secondary-text-color);
 }
 
