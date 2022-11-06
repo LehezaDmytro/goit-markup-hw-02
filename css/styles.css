@@ -137,6 +137,10 @@ body {
 
 /* Section team styles */
 
+.team {
+    background-color: #F5F4FA;
+}
+
 .team-item {
     background-color: var(--main-background-color);
 }
